@@ -37,7 +37,8 @@ class AppContainer(context: Context, suppliedClient: ChatClient? = null) {
     suspend fun seedLibrary(openAsset: (String) -> InputStream) {
         applyPresetAssets(openAsset, listOf(
             "presets/wenyou-bare-presets.json",
-            "presets/wenyou-bare2-presets.json"
+            "presets/wenyou-bare2-presets.json",
+            "presets/wenyou-genres-presets.json"
         ))
         applyPresetAssets(openAsset, listOf("presets/wenyou-adult-straight-presets.json"), markAdult = true)
         enrichBuiltinInitials(openAsset)
