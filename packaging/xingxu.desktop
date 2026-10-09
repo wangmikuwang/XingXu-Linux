@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=星叙
+Comment=AI 互动剧情与角色扮演
+Exec=xingxu %f
+Icon=xingxu
+Terminal=false
+Categories=Game;
