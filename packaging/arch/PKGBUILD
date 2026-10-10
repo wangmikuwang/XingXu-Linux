@@ -21,10 +21,10 @@ build() {
 }
 
 package() {
-  local image="$HOME/.gradle/caches/wnq-build/XingXu-Linux/compose/binaries/main/app/xingxu"
+  local image="$HOME/.gradle/caches/wnq-build/XingXu-Linux/compose/binaries/main/app/星叙"
   install -d "$pkgdir/opt" "$pkgdir/usr/bin"
   cp -a "$image" "$pkgdir/opt/xingxu"
-  ln -s "/opt/xingxu/bin/xingxu" "$pkgdir/usr/bin/xingxu"
+  ln -s "/opt/xingxu/bin/星叙" "$pkgdir/usr/bin/xingxu"
   install -Dm644 "$_root/packaging/xingxu.desktop" "$pkgdir/usr/share/applications/xingxu.desktop"
   install -Dm644 "$_root/src/main/resources/icon.png" "$pkgdir/usr/share/icons/hicolor/512x512/apps/xingxu.png"
   install -Dm644 "$_root/LICENSE" "$pkgdir/usr/share/licenses/xingxu/LICENSE"

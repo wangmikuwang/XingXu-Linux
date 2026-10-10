@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=XingXu
+Name[zh_CN]=星叙
+Comment=Text adventures you write and play with AI
+Comment[zh_CN]=自编剧情、自定义角色与 AI 共创的文字冒险工坊
+Exec=xingxu %f
+Icon=io.github.wangmikuwang.XingXu-Linux
+Terminal=false
+Categories=Game;AdventureGame;
+Keywords=text adventure;interactive fiction;AI;文字冒险;剧情;
+StartupWMClass=io-wenyou-textquest-MainKt
