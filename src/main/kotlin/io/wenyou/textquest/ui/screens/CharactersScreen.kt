@@ -234,7 +234,7 @@ private fun CharacterCard(
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerLow),
         modifier = Modifier.fillMaxWidth()
     ) {
-        Column(Modifier.fillMaxWidth().padding(14.dp)) {
+        Column(Modifier.fillMaxWidth().padding(16.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 EmojiBadge(c.emoji, avatarColor(c.colorIndex), size = 54.dp)
                 Spacer(Modifier.width(12.dp))
@@ -267,8 +267,8 @@ private fun CharacterCard(
             }
             Spacer(Modifier.height(10.dp))
             FlowRow(
-                horizontalArrangement = Arrangement.spacedBy(6.dp),
-                verticalArrangement = Arrangement.spacedBy(6.dp)
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 if (c.adult) Pill("18+", container = MaterialTheme.colorScheme.primaryContainer, accentIndex = 2)
             }

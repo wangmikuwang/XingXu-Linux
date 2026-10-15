@@ -39,7 +39,8 @@ class AppContainer(context: Context, suppliedClient: ChatClient? = null) {
         applyPresetAssets(openAsset, listOf(
             "presets/wenyou-bare-presets.json",
             "presets/wenyou-bare2-presets.json",
-            "presets/wenyou-genres-presets.json"
+            "presets/wenyou-genres-presets.json",
+            "presets/wenyou-genres2-presets.json"
         ))
         applyPresetAssets(openAsset, listOf("presets/wenyou-adult-straight-presets.json"), markAdult = true)
         enrichBuiltinInitials(openAsset)
