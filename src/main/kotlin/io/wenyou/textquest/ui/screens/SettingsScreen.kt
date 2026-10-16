@@ -195,7 +195,7 @@ fun SettingsScreen(container: WenYouApp.AppContainer, nav: NavHostController, up
                                     style = MaterialTheme.typography.bodySmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant)
                             }
-                            Switch(checked = ui.adultContent, onCheckedChange = { vm.setAdultContent(it) })
+                                io.wenyou.textquest.ui.common.AppSwitch(checked = ui.adultContent, onCheckedChange = { vm.setAdultContent(it) })
                         }
                     }
                 }
@@ -223,7 +223,7 @@ fun SettingsScreen(container: WenYouApp.AppContainer, nav: NavHostController, up
                                     color = MaterialTheme.colorScheme.onSurfaceVariant)
                             }
                             Spacer(Modifier.width(12.dp))
-                            Switch(exportKeys, { exportKeys = it })
+                            io.wenyou.textquest.ui.common.AppSwitch(exportKeys, { exportKeys = it })
                         }
                         if (confirmImport) AlertDialog(onDismissRequest = { confirmImport = false }, title = { Text("导入备份") },
                             text = { Text("导入会用备份替换当前的全部剧情、人物、存档与 AI 服务。导入前会自动保留一份当前数据，之后可以「撤销上次导入」。") },
