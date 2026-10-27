@@ -39,8 +39,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/wangmikuwang/XingXu-Linux.git
-        tag: v1.5.0
-        commit: 2ca6322f0a697dd9edb55cd9a930e661a9be61d8
+        tag: v1.6.0
+        commit: f1d91a8a6c99c4e2894888444d2cfd5df7d5bd15
       - type: archive
         url: https://services.gradle.org/distributions/gradle-9.8.1-bin.zip
         sha256: dce76f55f8e251a3a1f130eb120f30b3d271de2b76c9b0729d316b5a1b6dc01f
